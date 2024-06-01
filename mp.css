@@ -1,0 +1,182 @@
+ /* #source{
+    height:300px;
+    width:1000px;
+    margin-top:0;
+} */
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(222, 184, 244);
+}
+#logo{
+    height:150px;
+    width:150px;
+    margin-left:0px;
+    padding-left:0px;
+    border-radius: 35%;
+}
+.class1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:5px;
+     align-items: flex-start;
+     background-image:linear-gradient( 360deg,  rgb(222, 184, 244) 1%, rgb(109, 32, 186) 99% );
+}
+
+h1{
+    font-size:80px;
+    margin-top:5px;
+    margin-left: 5px;
+    color: orange;
+}
+
+#id1,#id2{
+    font-size:30px;
+    border-radius:18px;
+    border-color: black;
+    width:300px;
+    height:70px;
+    margin:5px;
+    padding:5px;
+    margin: 0 auto;
+    margin-top: 2.5%;
+    background-color:rgb(231, 108, 41);
+}
+/* Heading nav */
+   .first {
+    display: flex; 
+}
+.first{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-around;
+}
+.first h2{
+    color:rgb(109, 32, 186);
+}
+
+.first a{
+    text-decoration: none;
+}
+
+.first img{
+      height:100px;
+      width:100px;
+    
+}
+.first div{
+    background-color: rgb(231, 108, 41);
+    border-radius: 5%;
+    color: rgb(109, 32, 186);
+    border-color: black;
+}
+
+h2{
+    margin-top:5%;
+    font-size:40px;
+    color:rgb(231, 108, 41);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0.5vw 0.5vh 20px rgb(109, 32, 186);
+    text-align: center;
+
+}
+/* Menu items */
+.class2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:70px;
+    padding:4px;
+    transition: all 2s linear ;
+}
+#id3{
+    border-radius:50%;
+    height:17vh;
+    width:9.75vw;
+
+}
+.class2:hover{
+    transform:translate(300px);
+    animation: moveLeftRight 0.9s linear infinite;
+}
+
+/* Brands */
+.Brand{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:70px;
+    padding:4px;
+    transition: all 2s linear ;
+}
+#xy{
+    border-radius:50%;
+    height:20vh;
+    width:11vw;
+}
+.Brand:hover{
+    transform:translate(300px);
+    animation: moveLeftRight 0.9s linear infinite;
+    
+}
+.rest{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    flex-wrap: wrap;
+    padding:4px;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.box1{
+    border:2px solid black;
+    height:480px;
+    padding-top:0px;
+    margin:8px;
+    border-radius:15px;
+    position: relative;
+} 
+/* #box1 h2{
+    color:white;
+    text-align: center;
+} */
+.box1 img{
+  /* position: relative; */
+    padding-top: 0px;
+    height:480px;
+    width:450px;
+    border-radius:15px;
+    transition:all 0.8s linear 0s;
+}
+.image-name {
+    position: absolute;
+    top: 0;
+    left: 50%; /* Adjust the horizontal position as needed */
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.image-name a{
+    text-decoration: none;
+    color: azure;
+}
+.box1 img:hover{
+    transform: scale(1.1);
+}
+.box1 a{
+    text-decoration: none;
+}
+.box1 a:hover{
+    cursor:pointer;
+    
+}
